@@ -1,29 +1,29 @@
-# 📊 Customer Churn Prediction Dashboard
+#  Customer Churn Prediction Dashboard
 
 A comprehensive machine learning application built with Python, Pandas, and Streamlit to predict customer churn and visualize key risk indicators.
 
-## 🚀 Features
+## Features
 
-### 📈 Data Analysis
+### Data Analysis
 - **Synthetic Data Generation**: Create realistic customer datasets with configurable sample sizes
 - **Interactive Visualizations**: Explore churn patterns through multiple chart types
 - **Demographic Analysis**: Understand churn rates by customer segments
 - **Risk Factor Identification**: Identify key factors that contribute to customer churn
 
-### 🤖 Machine Learning
+### Machine Learning
 - **Random Forest Model**: Advanced ensemble learning for accurate churn prediction
 - **Feature Engineering**: Automatic preprocessing and feature scaling
 - **Model Performance Metrics**: Comprehensive evaluation with accuracy, confusion matrix, and feature importance
 - **Real-time Predictions**: Individual customer churn probability calculation
 
-### 🔍 Interactive Dashboard
+###  Interactive Dashboard
 - **Multi-tab Interface**: Organized views for different analysis types
 - **Customer Segmentation**: Automatic risk-based customer categorization
 - **Risk Level Assessment**: High/Medium/Low risk classification
 - **Data Filtering**: Advanced filtering options for customer exploration
 - **Export Functionality**: Download filtered data and reports
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -67,7 +67,7 @@ matplotlib==3.8.2
 joblib==1.3.2
 ```
 
-## 🎯 Usage Guide
+## Usage Guide
 
 ### Getting Started
 
@@ -82,7 +82,7 @@ joblib==1.3.2
 - **Monthly Charges Analysis**: Compare charges between churned and retained customers
 - **Demographic Insights**: Understand churn patterns across customer segments
 
-#### 🎯 Churn Prediction
+#### Churn Prediction
 - **Model Performance**: View accuracy metrics and confusion matrix
 - **Feature Importance**: Understand which factors most influence churn
 - **Individual Prediction**: Input customer details to get personalized churn probability
@@ -102,24 +102,24 @@ joblib==1.3.2
 
 ### Key Features Explained
 
-#### 🎛️ Control Panel (Sidebar)
+#### Control Panel (Sidebar)
 - **Data Management**: Generate new datasets with different sample sizes
 - **Model Training**: Train the machine learning model on your data
 - **Real-time Updates**: All changes reflect immediately in the dashboard
 
-#### 📊 Risk Assessment
+#### Risk Assessment
 - **High Risk**: Churn probability > 70%
 - **Medium Risk**: Churn probability 40-70%
 - **Low Risk**: Churn probability < 40%
 
-#### 🔮 Prediction Form
+####  Prediction Form
 The individual prediction form includes all relevant customer attributes:
 - Demographics (age, senior citizen status, family situation)
 - Service details (phone, internet, additional services)
 - Contract and billing information
 - Financial metrics (monthly and total charges)
 
-## 📊 Data Schema
+## Data Schema
 
 The synthetic data includes the following customer attributes:
 
@@ -148,7 +148,7 @@ The synthetic data includes the following customer attributes:
 | age | Integer | Customer age |
 | Churn | Integer | Churn status (1=Yes, 0=No) |
 
-## 🎨 Customization
+## Customization
 
 ### Modifying the Model
 To use a different machine learning algorithm, edit the `ChurnPredictor` class in `churn_predictor.py`:
